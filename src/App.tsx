@@ -32,20 +32,20 @@ function App() {
         </div>
 
         <h1 className="text-3xl md:text-4xl font-bold text-center text-gray-800 animate-fadeIn">
-          I'm Sorry 🥺
+          Maafi se nhi hoga kuch jante hai 🥺
         </h1>
 
         <div className="space-y-4 text-center">
           <Message 
-            text="I know I messed up, and I really miss your smile..." 
+            text="sb acha chal rha tha achank messed hogya ,,smile teri yaad aati h re" 
             delay="0.5s"
           />
           <Message 
-            text="You mean the world to me 🌎" 
+            text="Sachi hum aaj tk kuch khas nhi kiye 🌎" 
             delay="1s"
           />
           <Message 
-            text="And I promise to do better ❤️" 
+            text="And roj hum kuch naya acha krna chahte hai tumhare liye ❤️" 
             delay="1.5s"
           />
         </div>
@@ -75,10 +75,10 @@ function App() {
         {showMore && (
           <div className="animate-fadeIn text-center space-y-4">
             <p className="text-xl text-gray-700">
-              You're my favorite person in the whole world! 🌟
+              tum favourite ho ji hrr cheez krne ke liye ready hai krna chahte h schi 🌟
             </p>
             <p className="text-lg text-gray-600">
-              Let's make more beautiful memories together 💕
+              Please pillu i know is jgh koi nhi ayega pka 💕
             </p>
             <div className="flex justify-center gap-2 text-2xl">
               🐱 💝 🥺 💫 ✨
@@ -86,6 +86,8 @@ function App() {
           </div>
         )}
       </div>
+<p>Created on 29th November with React Click For Developer Tools</p>
+
     </div>
   );
 }
